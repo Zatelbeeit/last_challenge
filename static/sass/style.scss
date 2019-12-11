@@ -70,3 +70,28 @@ header {
         }
     }
     }
+    footer{
+        .forformat {
+            
+            .format{
+                display:flex;
+                justify-content: center;
+                flex-direction: column;
+                font-size: 0.8em;
+
+                h5{
+                    font-size: 0.95em;
+                    width:76%;
+                }
+                p{
+                    width:76%;
+                }
+            }
+        }
+        .media-body{
+            font-size: 0.8em;
+            h6{
+                font-size: 0.9rem;
+            }
+        }
+    }

@@ -43,4 +43,19 @@ header {
     .benefits .bencards .bencard div h6 {
       margin-left: 0.8em; }
 
+footer .forformat .format {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 0.8em; }
+  footer .forformat .format h5 {
+    font-size: 0.95em;
+    width: 76%; }
+  footer .forformat .format p {
+    width: 76%; }
+footer .media-body {
+  font-size: 0.8em; }
+  footer .media-body h6 {
+    font-size: 0.9rem; }
+
 /*# sourceMappingURL=style.css.map */
