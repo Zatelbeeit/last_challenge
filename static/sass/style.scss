@@ -1,10 +1,13 @@
 header {
-    background-image:url("https://picsum.photos/200/300") ;
+    background-image:url("../img/hero_bg_2.jpg") ;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     .home {
-        margin-top: 6em;
+        p{
+
+            
+        }
     }
 }
 
@@ -13,26 +16,67 @@ header {
         width: 100%;
     }
 }
-.cards {
-    .mycard {
-        width: 67%;
-        p{
-            font-size: 0.9em;
-        }
-        li {
-            font-size: 0.9em;
-        }
-        span {
-            display:flex;
-            justify-content:center;
-            i {
-                font-size: 3em;
+.services{
+    width:75%;
+    margin:auto;
+
+    .ourservices{
+            margin-top:6rem;
+            .buttons{
+                margin-top: 5em;
             }
-        }
+        .cards {
+            margin-top: 5em;
+            .col-12 {
+                display: flex;
+                justify-content: center;
+                .mycard {
+                    padding: 1em;
+                    margin: 1em;
+                    -webkit-box-shadow: 10px 10px 5px 0px rgba(240,235,240,1);
+                    -moz-box-shadow: 10px 10px 5px 0px rgba(240,235,240,1);
+                    box-shadow: 10px 10px 5px 0px rgba(240,235,240,1);
+                    p{
+                        font-size: 0.9em;
+                    }
+                    li {
+                        font-size: 0.9em;
+                    }
+                    span {
+                        display:flex;
+                        justify-content:center;
+                        margin-bottom: 2em;
+                        i {
+                            font-size: 3em;
+                        }
+                    }
+                }
+            }
     }
+
+}
+}
+.prod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3{
+        width:93%;
+    }
+    p{
+        width:93%;
+    }
+    
+}
+
+.flows{
+    display:flex;
+    justify-content:center;
+    
 }
 
 .card {
+    width: 18rem;
     .likes {
         display: flex;
         justify-content: space-between;
@@ -41,11 +85,14 @@ header {
 
 
 .benefits {
-
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: grey;
     .morebenefits {
         display: flex;
         flex-direction: column;
         align-items:center;
+        margin-bottom: 5em;
         h3 {
             width: 76%;
         }
@@ -70,13 +117,30 @@ header {
         }
     }
     }
+
+    .products {
+        padding-top: 5em;
+        padding-bottom: 5em;
+        background-color: rgba(255,46,123,1);
+        margin-top: 5em;
+        .row{
+
+            .padding {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .danger {
+            margin-top: 4em;
+        }
+    }
     footer{
-        .forformat {
-            
+        padding-top: 5em;
+        padding-bottom: 5em;
             .format{
                 display:flex;
-                justify-content: center;
                 flex-direction: column;
+                align-items: center;
                 font-size: 0.8em;
 
                 h5{
@@ -86,7 +150,35 @@ header {
                 p{
                     width:76%;
                 }
+            
+        }
+
+            .connect {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h5 {
+                    width: 78%;
+                }
+                span {
+                    width: 78%;
+                }
             }
+
+        .popprod {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           h5 {
+               width: 76%;
+           }
+           .guts {
+               display: flex;
+               justify-content: center;
+               ul {
+                   width: 76%;
+               }
+           }
         }
         .media-body{
             font-size: 0.8em;
@@ -94,4 +186,121 @@ header {
                 font-size: 0.9rem;
             }
         }
+
+        .copyright {
+            margin-top: 3em;
+            display:flex;
+            justify-content: center;
+            div {
+                width: 25%;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        .products {
+            .row{
+
+                .padding {
+                    padding: 0.5em;
+                }
+            }
+        }
+
+        .services{
+            width:75%;
+            margin:auto;
+        
+            .ourservices{
+        
+                    margin-top:6rem;
+                .cards {
+                    .mycard {
+                        width: 100%;
+                        p{
+                            font-size: 0.9em;
+                        }
+                        li {
+                            font-size: 0.9em;
+                        }
+                        span {
+                            display:flex;
+                            justify-content:center;
+                            i {
+                                font-size: 3em;
+                            }
+                        }
+                    }
+            }
+        }
+        }
+
+        
+        footer {
+
+            .connect {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h5 {
+                    width: 22%;
+                }
+                span {
+                    width: 8%;
+                }
+            }
+
+            .copyright {
+                display:flex;
+                justify-content: center;
+                div {
+                    width: 60%;
+                }
+            }
+        }
+                    
+    }
+
+    @media only screen and (max-width: 767px){
+        .prod{
+            h3{
+                width:100%;
+            }
+            p{
+                width:100%;
+            }
+            
+        }
+
+      
+
+.benefits {
+
+    .morebenefits {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        h3 {
+            width: 76%;
+        }
+        p {
+            width: 100%;
+        }
+    }
+}
+
+footer {
+
+    .connect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h5 {
+            width: 46%;
+        }
+        span {
+            width: 18%;
+        }
+    }
+}
     }

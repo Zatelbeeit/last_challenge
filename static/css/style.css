@@ -1,61 +1,193 @@
 header {
-  background-image: url("https://picsum.photos/200/300");
+  background-image: url("../img/hero_bg_2.jpg");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover; }
-  header .home {
-    margin-top: 6em; }
 
 .images img {
   width: 100%; }
 
-.cards .mycard {
-  width: 67%; }
-  .cards .mycard p {
-    font-size: 0.9em; }
-  .cards .mycard li {
-    font-size: 0.9em; }
-  .cards .mycard span {
-    display: flex;
-    justify-content: center; }
-    .cards .mycard span i {
-      font-size: 3em; }
+.services {
+  width: 75%;
+  margin: auto; }
+  .services .ourservices {
+    margin-top: 6rem; }
+    .services .ourservices .buttons {
+      margin-top: 5em; }
+    .services .ourservices .cards {
+      margin-top: 5em; }
+      .services .ourservices .cards .col-12 {
+        display: flex;
+        justify-content: center; }
+        .services .ourservices .cards .col-12 .mycard {
+          padding: 1em;
+          margin: 1em;
+          -webkit-box-shadow: 10px 10px 5px 0px #f0ebf0;
+          -moz-box-shadow: 10px 10px 5px 0px #f0ebf0;
+          box-shadow: 10px 10px 5px 0px #f0ebf0; }
+          .services .ourservices .cards .col-12 .mycard p {
+            font-size: 0.9em; }
+          .services .ourservices .cards .col-12 .mycard li {
+            font-size: 0.9em; }
+          .services .ourservices .cards .col-12 .mycard span {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2em; }
+            .services .ourservices .cards .col-12 .mycard span i {
+              font-size: 3em; }
 
-.card .likes {
-  display: flex;
-  justify-content: space-between; }
-
-.benefits .morebenefits {
+.prod {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .benefits .morebenefits h3 {
-    width: 76%; }
-  .benefits .morebenefits p {
-    width: 70%; }
-.benefits .bencards .col-12 {
+  .prod h3 {
+    width: 93%; }
+  .prod p {
+    width: 93%; }
+
+.flows {
   display: flex;
   justify-content: center; }
-.benefits .bencards .bencard {
-  width: 76%; }
-  .benefits .bencards .bencard div {
-    display: flex; }
-    .benefits .bencards .bencard div h6 {
-      margin-left: 0.8em; }
 
-footer .forformat .format {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  font-size: 0.8em; }
-  footer .forformat .format h5 {
-    font-size: 0.95em;
+.card {
+  width: 18rem; }
+  .card .likes {
+    display: flex;
+    justify-content: space-between; }
+
+.benefits {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: grey; }
+  .benefits .morebenefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em; }
+    .benefits .morebenefits h3 {
+      width: 76%; }
+    .benefits .morebenefits p {
+      width: 70%; }
+  .benefits .bencards .col-12 {
+    display: flex;
+    justify-content: center; }
+  .benefits .bencards .bencard {
     width: 76%; }
-  footer .forformat .format p {
-    width: 76%; }
-footer .media-body {
-  font-size: 0.8em; }
-  footer .media-body h6 {
-    font-size: 0.9rem; }
+    .benefits .bencards .bencard div {
+      display: flex; }
+      .benefits .bencards .bencard div h6 {
+        margin-left: 0.8em; }
+
+.products {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #ff2e7b;
+  margin-top: 5em; }
+  .products .row .padding {
+    display: flex;
+    justify-content: center; }
+  .products .danger {
+    margin-top: 4em; }
+
+footer {
+  padding-top: 5em;
+  padding-bottom: 5em; }
+  footer .format {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8em; }
+    footer .format h5 {
+      font-size: 0.95em;
+      width: 76%; }
+    footer .format p {
+      width: 76%; }
+  footer .connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    footer .connect h5 {
+      width: 78%; }
+    footer .connect span {
+      width: 78%; }
+  footer .popprod {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    footer .popprod h5 {
+      width: 76%; }
+    footer .popprod .guts {
+      display: flex;
+      justify-content: center; }
+      footer .popprod .guts ul {
+        width: 76%; }
+  footer .media-body {
+    font-size: 0.8em; }
+    footer .media-body h6 {
+      font-size: 0.9rem; }
+  footer .copyright {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center; }
+    footer .copyright div {
+      width: 25%; }
+
+@media only screen and (max-width: 1024px) {
+  .products .row .padding {
+    padding: 0.5em; }
+
+  .services {
+    width: 75%;
+    margin: auto; }
+    .services .ourservices {
+      margin-top: 6rem; }
+      .services .ourservices .cards .mycard {
+        width: 100%; }
+        .services .ourservices .cards .mycard p {
+          font-size: 0.9em; }
+        .services .ourservices .cards .mycard li {
+          font-size: 0.9em; }
+        .services .ourservices .cards .mycard span {
+          display: flex;
+          justify-content: center; }
+          .services .ourservices .cards .mycard span i {
+            font-size: 3em; }
+
+  footer .connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    footer .connect h5 {
+      width: 22%; }
+    footer .connect span {
+      width: 8%; }
+  footer .copyright {
+    display: flex;
+    justify-content: center; }
+    footer .copyright div {
+      width: 60%; } }
+@media only screen and (max-width: 767px) {
+  .prod h3 {
+    width: 100%; }
+  .prod p {
+    width: 100%; }
+
+  .benefits .morebenefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .benefits .morebenefits h3 {
+      width: 76%; }
+    .benefits .morebenefits p {
+      width: 100%; }
+
+  footer .connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    footer .connect h5 {
+      width: 46%; }
+    footer .connect span {
+      width: 18%; } }
 
 /*# sourceMappingURL=style.css.map */
