@@ -1,0 +1,46 @@
+header {
+  background-image: url("https://picsum.photos/200/300");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  header .home {
+    margin-top: 6em; }
+
+.images img {
+  width: 100%; }
+
+.cards .mycard {
+  width: 67%; }
+  .cards .mycard p {
+    font-size: 0.9em; }
+  .cards .mycard li {
+    font-size: 0.9em; }
+  .cards .mycard span {
+    display: flex;
+    justify-content: center; }
+    .cards .mycard span i {
+      font-size: 3em; }
+
+.card .likes {
+  display: flex;
+  justify-content: space-between; }
+
+.benefits .morebenefits {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .benefits .morebenefits h3 {
+    width: 76%; }
+  .benefits .morebenefits p {
+    width: 70%; }
+.benefits .bencards .col-12 {
+  display: flex;
+  justify-content: center; }
+.benefits .bencards .bencard {
+  width: 76%; }
+  .benefits .bencards .bencard div {
+    display: flex; }
+    .benefits .bencards .bencard div h6 {
+      margin-left: 0.8em; }
+
+/*# sourceMappingURL=style.css.map */
